@@ -1,0 +1,796 @@
+.html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+                  /* Main Nav Bar Starts(One)  */
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,5)50%),rgba(0,0,0,5)50%;
+    /* background-image: url(Assets/contact-bg.jpg); */
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 97vh;
+    
+    
+}
+.backgroundVideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.7;
+    
+}
+
+
+.navbar{
+    width: 1500px;
+    height: 75;
+    margin: auto;
+
+}
+.logoArea{
+    width: 180x;
+    float: left;
+    height: 70px;
+    margin-top: 35px;
+    /* position: fixed; */
+   
+    
+}
+.logoArea h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 2000;
+    margin-left: 120px;
+}
+.logoArea h1 span{
+    color: rgb(250, 69, 4);
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    /* margin-left: 10px; */
+    /* position: fixed; */
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 27px;
+    font-size: 14px; 
+   
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+}
+ul li a:hover{
+    color: rgb(250, 69, 4);
+}
+.signUp{
+    height: 40px;
+    width: 100px;
+    background: rgb(250, 69, 4);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+.signUp:hover{
+    color: rgb(250, 69, 4);
+}
+.content h2{
+    color: #fff;
+    font-weight: 600;  
+    font-size: 20px;
+    padding-top: 200px;
+    padding-left: 500px;
+}
+.content h1{
+    font-size: 75px;
+    padding-left: 260px;
+    padding-top: 20px;
+    color: #fff;
+    font-weight: 800;     
+}
+
+.content .cn{
+    width: 170px;
+    height: 45px;
+    background: rgb(250, 69, 4);
+    border: none;
+    margin-top: 30px;
+    margin-left: 570px;
+    cursor: pointer;
+    color: white;
+    
+}
+.content .cn a{
+    text-decoration: none;
+    color: white;
+    transition: 3s ease;
+}
+.cn:hover{
+    background-color: white;
+}
+.content h1 span{
+    color: rgb(250, 69, 4);
+    font-size: px;
+    font-weight: 800;   
+}
+                        /* Main Nav Bar Ends(One)  */
+
+                        /* Feature page starts(second) */
+.featuresOne{
+    height: 120vh;
+    width: 100%;
+    background-color: #fff;
+}
+.featuresOne h1{
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 8px;
+}
+.featuresOne .chooseProgram{
+    height: 50px;
+    width: 550px;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+}
+.featuresOne span{
+    color: rgb(250, 69, 4);
+}
+.featuresOne img{
+    margin-top: 15px;
+
+}
+.featuresOne h2{
+    font-size: 16px;
+    color: rgb(134, 131, 131);
+}
+.featuresOne .Each{
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+       /* basicFitness one */
+.basicFitness{
+    height: 150px;
+    width: 500px;
+    /* border: solid black; */
+    margin-top: 150px;
+    margin-left: 120px;
+   /* background-color: aqua; */
+    display: inline-block;
+    position: relative;
+}
+.basicFitness h1{
+    margin-left: 120px;
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.basicFitness h2{
+    margin-left: 120px;
+    position: absolute;
+    top: 45px;
+    line-height: 1.4;
+}
+.basicFitness a{
+    margin-left: 20px;
+    position: absolute;
+    top: 98px;
+    text-decoration: none;
+    color:  rgb(250, 69, 4);
+    font-size: 14px;
+    font-weight: 800;
+}
+       /* basicFitness one */
+.basicFitness{
+    height: 150px;
+    width: 530px;
+    /* border: solid black; */
+    margin-top: 150px;
+    margin-left: 120px;
+    /* background-color: aqua; */
+    display: inline-block;
+    position: relative;
+}
+.basicFitness h1{
+    margin-left: 120px;
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.basicFitness h2{
+    margin-left: 120px;
+    position: absolute;
+    top: 45px;
+    line-height: 1.4;
+}
+.basicFitness a{
+    margin-left: 20px;
+    position: absolute;
+    top: 98px;
+    text-decoration: none;
+    color:  rgb(250, 69, 4);
+    font-size: 14px;
+    font-weight: 800;
+}
+       /* basicFitness Two */
+.basicFitness2{
+    height: 150px;
+    width: 530px;
+    /* border: solid black; */
+    margin-top: 25px;
+    margin-left: 120px;
+    /* background-color: aqua; */
+    display: inline-block;
+    position: relative;
+}
+.basicFitness2 h1{
+    margin-left: 120px;
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.basicFitness2 h2{
+    margin-left: 120px;
+    position: absolute;
+    top: 45px;
+    line-height: 1.4;
+}
+.basicFitness2 a{
+    margin-left: 20px;
+    position: absolute;
+    top: 98px;
+    text-decoration: none;
+    color:  rgb(250, 69, 4);
+    font-size: 14px;
+    font-weight: 800;
+}
+   /* .basicFitness Three */
+   .basicFitness3{
+    height: 150px;
+    width: 530px;
+    /* border: solid black; */
+    margin-top: 25px;
+    margin-left: 120px;
+    display: inline-block;
+    position: relative;
+}
+.basicFitness3 h1{
+    margin-left: 120px;
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.basicFitness3 h2{
+    margin-left: 120px;
+    position: absolute;
+    top: 45px;
+    line-height: 1.4;
+}
+.basicFitness3 a{
+    margin-left: 20px;
+    position: absolute;
+    top: 98px;
+    text-decoration: none;
+    color:  rgb(250, 69, 4);
+    font-size: 14px;
+    font-weight: 800;
+}
+                /* Feature page Ends(second) */
+
+                /* Call to Action Starts(Three)  */
+.callToAction{
+    height: 65vh;
+    width: 80%;
+    position: relative;
+}             
+.callToAction h1{
+    color: #fff;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.callToAction span{
+    color:  rgb(250, 69, 4);
+}
+.callToAction h2{
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 250px;
+    text-align: center;
+    line-height: 1.5;
+}
+.callToAction .training{
+    width: 900px;
+    
+}
+.callToAction .cn{
+    width: 170px;
+    height: 45px;
+    background: rgb(250, 69, 4);
+    border: none;
+    margin-top: 30px;
+    margin-left: 620px;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 200px;
+}
+.callToAction .cn a{
+    text-decoration: none;
+    color: white;
+    transition: 3s ease ease-in-out;
+}
+.callToAction .cn:hover{
+    background-color: white;
+}
+              /* Call to Action Ends(Three)  */
+              /* Training Classes Starts here(section four) */
+.trainingClasses{
+    height: 150vh;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+.trainingClasses h1{
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 8px;
+    height: 50px;
+    width: 550px;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+}
+.trainingClasses span{
+    color: rgb(250, 69, 4);
+
+}
+.trainingClasses img{
+    margin-left: 650px;
+
+}
+    
+.trainingClasses h2{
+    margin-left: 470px;
+    margin-top: 15px;
+    font-size: 16px;
+    color: rgb(134, 131, 131);
+}
+.firstTraining{
+    width: 350px;
+    height: 100px;
+    margin-left: 120px;
+    margin-top: 100px;
+    border-radius: 5px;
+    background: #f5f0f0;
+    /* box-shadow: 10px 10px 10px 10px color(srgb rgb(219, 216, 216) green blue); */
+    border: solid #f5f0f0;
+    position: relative;
+    transition: 3s ease ease-in-out;
+
+}
+.firstTraining:hover{
+    background-color: rgb(206, 195, 191);
+}
+.firstTraining img{
+    position: absolute;
+    top: 30px;
+    left: -610px;
+}
+.firstTraining h3{
+    margin-top: 37px;
+    margin-left: 90px;
+    font-size: 20px;
+    color: rgb(250, 69, 4);
+}
+.secondTraining{
+    width: 350px;
+    height: 100px;
+    margin-left: 120px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background: #f5f0f0;
+    /* box-shadow: 10px 10px 10px 10px color(srgb rgb(219, 216, 216) green blue); */
+    border: solid #f5f0f0;
+    position: relative;
+    transition: 3s ease ease-in-out;
+
+}
+.secondTraining:hover{
+    background-color: rgb(206, 195, 191);
+}
+
+.secondTraining img{
+    position: absolute;
+    top: 30px;
+    left: -610px;
+}
+.secondTraining h3{
+    margin-top: 37px;
+    margin-left: 90px;
+    font-size: 20px;
+    color: black
+}
+.trainingClasses .btn1{
+    width: 350px;
+    height: 60px;
+    margin-left: 120px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background: rgb(250, 69, 4);
+    border: none;
+    font-size: 20px;
+    font-weight: 00;
+    /* box-shadow: 10px 10px 10px 10px color(srgb rgb(219, 216, 216) green blue); */
+    position: relative;
+    transition: 3s ease ease-in-out;
+}
+.trainingClasses .btn1:hover{
+    background-color: rgb(206, 195, 191);
+}
+.trainingClasses .img2{
+    position: absolute;
+    top: 210px;
+    right: 90px;
+    border-radius: 10px;
+}
+.imgTrainig h1{
+    color: black;
+    position: absolute;
+    top: 420px;
+    left: 360px;
+    font-size: 25px;
+}
+.imgTrainig h2{
+    width: 700px;
+    color: rgb(134, 131, 131);
+    position: absolute;
+    top: 570px;
+    left: 60px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.imgTrainig .btn2{
+    width: 180px;
+    height: 50px;
+    background: rgb(250, 69, 4);
+    border: none;
+    color: #fff;
+    position: absolute;
+    top: 650px;
+    left: 530px;
+    transition: 3s ease ease-in-out;
+}
+.imgTrainig .btn2:hover{
+    background-color:  rgb(206, 195, 191);
+}
+               /* Training Classes Ends here(section four) */
+               /* Table Starts here(section Five) */
+.table{
+    width: 100%;
+    background-image: url(Assets/schedule-bg.jpg);
+    background-size: cover;
+    height: 165vh;
+}
+.table h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 100px;
+}
+.table .chooseProgram{
+    height: 50px;
+    width: 550px;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+}
+.table span{
+    color: rgb(250, 69, 4);
+}
+.table img{
+    margin-top: 15px;
+
+}
+.table h2{
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+}
+.table .Each{
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.table h3{
+    color: #fff;
+    margin-top: 100px;
+    word-spacing: 10px;
+}
+.table h3 span1{
+    color: #fff;
+}
+.table h3 span1:hover{
+    color: rgb(250, 69, 4);
+}
+.table h3 span2{
+    color: #fff;
+}
+.table h3 span2:hover{
+    color: rgb(250, 69, 4);
+}
+.table h3 span3{
+    color: #fff;
+}
+.table h3 span3:hover{
+    color: rgb(250, 69, 4);
+}
+.table h3 span4{
+    color: #fff;
+}
+.table h3 span4:hover{
+    color: rgb(250, 69, 4);
+}
+.table h3 span5{
+    color: #fff;
+}
+.table h3 span5:hover{
+    color: rgb(250, 69, 4);
+}
+table,td,th{
+    width: 70%;
+    margin: auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+    font-size: 14px;
+    color: #fff;
+}
+.td,th{
+    padding: 40px;
+}
+.tableSchedule{
+    margin-top: 350px;
+}
+        /* Table Ends here(section Five) */
+            /* Expert Trainers Start Here (section six)*/
+.expertTrainers{
+    width: 100%;
+    background: #fff;
+    height: 150vh;
+}
+.expertTrainers h1{
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 100px;
+}
+.expertTrainers .chooseProgram{
+    height: 50px;
+    width: 550px;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+}
+.expertTrainers span{
+    color: rgb(250, 69, 4);
+}
+.expertTrainers img{
+    margin-top: 15px;
+
+}
+.expertTrainers h2{
+    font-size: 16px;
+    color: rgb(134, 131, 131);
+    line-height: 1.5;
+}
+.expertTrainers .Each{
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.picFrame{
+    height: 500px;
+    width: 350px;
+    background-color: #fff;
+    margin-top: 250px;
+    margin-left: 120px;
+    box-shadow: 0px 0px 5px;
+    display: inline-block;
+}
+.picFrame  img{
+    margin-left: 27px;
+    margin-top: 40px;
+}
+.picFrame h3{
+    color: rgb(250, 69, 4);
+    font-size: 14px;
+    margin-left: 27px;
+    margin-top: 20px;
+}
+.picFrame h2{
+    color: black;
+    font-size: 20px;
+    margin-left: 27px;
+
+}
+.picFrame h4{
+    color: rgb(134, 131, 131);
+    font-size: 16px;
+    margin-left: 27px;
+    margin-top: 5px;
+    line-height: 1.5;
+    width: 280px;
+}
+.icons{
+    margin: 10px;
+    padding-left: 12px;
+    
+}
+.icons i{
+   color: black;
+   font-size: 20px;
+   padding: 0 5px;
+}
+.icons i:hover{
+    color: rgb(250, 69, 4);
+}
+
+
+.picFrame2{
+    height: 500px;
+    width: 350px;
+    background-color: #fff;
+    margin-top: 250px;
+    margin-left: 40px;
+    box-shadow: 0px 0px 5px;
+    display: inline-block;
+}
+.picFrame2  img{
+    margin-left: 27px;
+    margin-top: 40px;
+}
+.picFrame2 h3{
+    color: rgb(250, 69, 4);
+    font-size: 14px;
+    margin-left: 27px;
+    margin-top: 20px;
+}
+.picFrame2 h2{
+    color: black;
+    font-size: 20px;
+    margin-left: 27px;
+
+}
+.picFrame2 h4{
+    color: rgb(134, 131, 131);
+    font-size: 16px;
+    margin-left: 27px;
+    margin-top: 5px;
+    line-height: 1.5;
+    width: 280px;
+}
+.icons2{
+    margin: 10px;
+    padding-left: 15px;
+    
+}
+.icons2 i{
+   color: black;
+   font-size: 20px;
+   padding: 0 5px;
+}
+.icons2 i:hover{
+    color: rgb(250, 69, 4);
+}
+/* Expert Trainers End Here (section Five) */
+/* Maps and forms Start Here (section six)*/
+.mapForm{
+    width: 100%;
+    background: #fff;
+    height: 130vh;
+    background-color: #fff;
+    position: relative;
+}
+.mapForm .picWrapper{
+    width: 50%;
+    background-image: url(Assets/schedule-bg.jpg);
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.commentBox{
+    width: 500px;
+    height: 500px;
+    margin: 50px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 0px 1px;
+    background-color: #fff;
+}
+.commentBox p{
+    text-align: left;
+    font-size: 20px;
+}
+.commentForm input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.commentBox textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+}
+.commentForm button{
+    margin: 20px ;
+    margin-left: 0px;
+    border: none;
+    background-color: rgb(250, 69, 4);
+    padding: 15px;
+    color: #fff;
+}
+.commentForm button:hover{
+    color: black;
+}
+.mapForm h3{
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    word-spacing: 1px;
+    padding-top: 30px;
+}
